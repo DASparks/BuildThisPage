@@ -1,0 +1,95 @@
+.above{
+    height:800px;
+    background-image: url("images/LakeMonroeCrop.jpg");
+    background-position:top center;
+}
+
+.bannerTop{
+    width:100%;
+    height:60px;
+    position:fixed;
+    background-color:#B79F78;
+    border-bottom:5px solid #7F2A14;
+}
+
+.contentsT{
+    width:70%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    margin:10px auto;
+}
+
+.menuT{
+    width:70%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+
+    margin:10px 0;
+}
+
+#titleT {
+
+    font-size: 2rem;
+    color: #405562;
+}
+
+a {
+    font-family: arial, sans-serif;
+    color: #7F2A14;
+    font-size: 1rem;
+}
+
+.bannerFold {
+    height:80px;
+}
+
+.headderF{
+    width:70%;
+}
+
+.contentsFA{
+    display:none;
+}
+
+.contentsFB{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-family:Calibri, sans-serif;
+    color:#7F2A14;
+    }
+
+#nextF{
+    display:none;
+}
+
+article {
+    width:48%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.page{
+    width:100%;
+    height:auto;
+    display:flex;
+    padding:10px;
+    border-top:2px solid #F0F5F8;
+    }
+
+#nextB{
+    width:120px;
+    font-family:Arial, sans-serif;
+    font-size:1rem;
+    padding:10px;
+}
+
+.foot{
+    font-size:1em;
+    padding:1em 0;
+}

@@ -1,0 +1,164 @@
+html, body, div, section, article, header, nav, footer, ul, li, h1, p, a
+{
+    padding:0;
+    border:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html, body, .above {
+    display:flex;
+    width:100%;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+li{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+.above{
+    display:flex;
+    flex-direction:column;
+    background-color:#B79F78;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    flex-grow:1;
+}
+
+.below{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.bannerFold{
+    width:100%;
+    /*height:80px;*/
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#B79F78;
+    border-top:5px solid #7F2A14;
+}
+
+.click{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#CAE4F7;
+    background-color:#405562;
+    padding:5px;
+    border-radius:5px;
+}
+
+#some{
+    font-family:calibri, sans-serif;
+}
+
+.pba{
+    width:70%;
+}
+
+.photos{
+    width:100%;
+    display:flex;
+    padding:20px 0;
+    border-bottom:2px solid #F0F5F8;
+
+}
+
+.photo{
+    display:flex;
+    background-color:#6F859B;
+    background-repeat:no-repeat;
+    background-position:center;
+    /*border:2px solid #B79F78;*/
+    border-radius:4px;
+    margin:0 5px;
+}
+
+#photo01, #photo02, #photo03, #photo04{
+    width:90%;
+    height:90%;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:10px auto;
+}
+
+.blog{
+    display:flex;
+    flex-direction:column;
+    flex-flow:wrap;
+    height:100%;
+    font-family:arial, sans-serif;
+    color:#7F2A14;
+    padding:10px 0;
+}
+
+article{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#F0F5F8;
+    padding:10px;
+    border-radius:8px;
+    margin:10px auto;
+}
+
+p{
+    color:black;
+}
+
+footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    background-color:#B79F78;
+}
+
+.foot{
+    font-family:arial, sans-serif;
+    color:#F0F5F8;
+}
+
+a:hover{
+    color:black;
+    cursor:pointer;
+}
+
+h1:hover{
+    color:black;
+    cursor:pointer;
+}
+
+#why:hover{
+    color:black;
+    cursor:pointer;
+}
+
+.click:hover{
+    background-color:lightgrey;
+}
+
+.photo:hover{
+    background-color:black;
+    cursor:pointer;
+}
+
+article:hover{
+    background-color:lightgrey;
+    color:black;
+    cursor:pointer;
+}
